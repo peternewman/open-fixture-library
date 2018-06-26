@@ -14,7 +14,8 @@
     "watch": "nodemon main.js",
     "start": "node main.js",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@octokit/rest": "^15.1.7",
@@ -43,7 +44,7 @@
     "vuedraggable": "^2.15.0",
     "xml2js": "^0.4.19",
     "xmlbuilder": "^9.0.4",
-    "snyk": "^1.70.0"
+    "snyk": "^1.85.0"
   },
   "devDependencies": {
     "ajv": "^6.0.1",
