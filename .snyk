@@ -1,8 +1,11 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:ms:20170412':
     - browserify-middleware > ms:
         patched: '2018-03-14T11:48:14.716Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - '@octokit/rest > https-proxy-agent':
+        patched: '2019-10-04T07:58:19.658Z'
